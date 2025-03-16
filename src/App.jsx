@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
-import videoSrc from "@/assets/teaser.mp4";
-import logo from "@/assets/logo.webp";
+import videoSrc from "@/assets/trailer.mp4";
+import logo from "@/assets/logo.png";
 import image1 from "@/assets/writer-character.webp";
 import image2 from "@/assets/escenarios.webp";
 
