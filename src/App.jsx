@@ -53,6 +53,17 @@ export default function GamePresentation() {
           </Carousel.Item>
         </Carousel>
       </section>
+
+      <footer className="bg-dark text-center text-white py-3 mt-5">
+        <Container>
+          <Row>
+            <Col>
+              <p>&copy; {new Date().getFullYear()} Liveting - Todos los derechos reservados.</p>
+              <p>Creative Commons BY-NC-ND - Atribución-NoComercial-SinObraDerivada 4.0 Internacional</p>
+            </Col>
+          </Row>
+        </Container>
+      </footer>
     </Container>
   );
 }
