@@ -1,9 +1,9 @@
 import { useEffect } from "react";
 import { Container, Row, Col, Button, Carousel } from "react-bootstrap";
 import videoSrc from "@/assets/teaser.mp4";
-import logo from "@/assets/logo.svg";
-import image1 from "@/assets/writer-character.svg";
-import image2 from "@/assets/escenarios.svg";
+import logo from "@/assets/logo.webp";
+import image1 from "@/assets/writer-character.webp";
+import image2 from "@/assets/escenarios.webp";
 
 export default function GamePresentation() {
   return (
@@ -16,7 +16,7 @@ export default function GamePresentation() {
       
       {/* Hero Section */}
       <section className="text-center py-5">
-        <h1 className="display-4 fw-bold">La Vida es Equilibrio</h1>
+        <h1 className="display-4 fw-bold">Escribe tu Vida</h1>
         <p className="fs-5">Gestiona tu tiempo, crea tu obra magna y encuentra tu propio final.</p>
       </section>
       
@@ -43,7 +43,7 @@ export default function GamePresentation() {
       
       {/* Image Carousel */}
       <section className="py-5 text-center">
-        <h2 className="fw-bold">Explora el Mundo</h2>
+        <h2 className="fw-bold">Explora tu Mundo</h2>
         <Carousel className="w-50 mx-auto mt-4">
           <Carousel.Item>
             <img src={image1} alt="Screenshot 1" className="d-block w-100 rounded" />
