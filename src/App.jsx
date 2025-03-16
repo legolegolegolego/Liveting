@@ -22,7 +22,7 @@ export default function GamePresentation() {
       
       {/* Video Trailer */}
       <section className="d-flex justify-content-center py-4">
-        <video src={videoSrc} controls className="w-75 rounded shadow-lg" />
+        <video src={videoSrc} controls className="w-75 rounded shadow-lg" autoPlay muted loop/>
       </section>
       
       {/* Game Features */}
